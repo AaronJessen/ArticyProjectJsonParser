@@ -11,7 +11,10 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/ArticyProjectJsonParser.dll",
-            "args": [],
+            "args": [
+                "G:\\Users\\thepu\\OneDrive\\Documents\\trtm.json",
+                "G:\\Users\\thepu\\OneDrive\\Documents\\ok.db"
+            ],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",

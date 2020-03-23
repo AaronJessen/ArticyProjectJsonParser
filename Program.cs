@@ -13,7 +13,7 @@ namespace ArticyProjectJsonParser
             var parser = new Parser();
             var result = parser.Parse(jsonPath);
 
-            var saver = new Saver();
+            var saver = new Saver(sqliteDatabasePath);
             saver.Save(result);
 
             Console.WriteLine("Done!");

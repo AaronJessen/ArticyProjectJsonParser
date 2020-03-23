@@ -2,6 +2,7 @@ namespace ArticyProjectJsonParser.Database.Models
 {
     public class ConnectionDbo
     {
+        public int Id { get; set; }
         public string Color { get; set; } 
         public string Label { get; set; } 
         public string Source { get; set; } 
